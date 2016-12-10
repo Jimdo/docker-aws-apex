@@ -6,3 +6,5 @@ RUN curl https://raw.githubusercontent.com/apex/apex/master/install.sh | sh && a
 RUN pip install --upgrade pip
 RUN pip install awscli
 RUN pip install awscurl
+
+CMD ["/bin/bash"]
