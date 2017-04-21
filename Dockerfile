@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:4.3
+FROM mhart/alpine-node:6.10
 
 RUN apk add --update jq curl python py-pip make bash \
   libc6-compat python-dev gcc musl-dev libffi-dev openssl-dev git
